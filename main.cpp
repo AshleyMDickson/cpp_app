@@ -4,7 +4,13 @@
 
 using namespace std;
 
-int main() {
-    string message = "Bonjour tout le monde!";
-    cout << message << endl;
+int f(int a, int b);
+
+int main()
+{
+    int x = f(5, 2);
+    
+    cout << "x = " << x << endl;
+
+    return 0;
 }
