@@ -1,6 +1,7 @@
 // Template C++ program file
-
 #include <iostream>
+// include our header file with the function declaration
+#include "function.h" 
 
 using namespace std;
 
