@@ -8,7 +8,6 @@ int main()
 {
     char z{'y'};
     while(z = 'y'){
-
         int x{}; int y{}; 
         cout << "Enter your first number: " << endl;
         cin >> x;
@@ -18,10 +17,9 @@ int main()
         f(x, y);
         cout << "Run it again? (y/n):" << endl;
         cin >> z;
-        if(z == 'y'){
-        } else {
-            z = 'n';
-            exit;
+        if(z == 'y'){} 
+        else {
+            break;
         }
     }
     return 0;
