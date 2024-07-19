@@ -1,17 +1,14 @@
 // Template C++ program file
-#include <iostream>
+//#include <iostream>
+
 // include our header file with the function declaration
 #include "function.h" 
 
-using namespace std;
-
-int f(int a, int b);
+//using namespace std;
 
 int main()
 {
-    int x = f(5, 2);
-    
-    cout << "x = " << x << endl;
+    f(7, 112);
 
     return 0;
 }
