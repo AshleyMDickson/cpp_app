@@ -1,1 +1,1 @@
-#A multi-file C++ app template
+# A multi-file C++ app template
